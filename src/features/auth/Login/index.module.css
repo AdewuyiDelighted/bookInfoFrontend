@@ -1,0 +1,56 @@
+body{
+    background-color: #cef1fc;
+}
+.mains{
+    display: flex;
+    justify-content: center;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 4px;
+    width: 35%;
+    height: 95vh;
+    padding-top: 20px;
+    background-color: white;
+}
+.image{
+    display: flex;
+    justify-content: center;
+
+}
+.create{
+    font-weight: bold;
+    font-size: 30px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 50px;
+}
+.form >label {
+    display: flex;
+    flex-direction: row;
+}
+.inputs{
+    display: flex;
+    height: 8vh;
+    width: 90%;
+    border-radius: 5px;
+}
+.checkBox{
+    display: flex;
+    gap: 3px;
+
+}
+.login{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+.button{
+    display: flex;
+    justify-content: center;
+}
