@@ -1,0 +1,48 @@
+.main{
+    display: flex;
+    justify-content: center;
+
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.form > input{
+    height: 6vh;
+    width: 85%;
+    border-radius: 8px;
+}
+.form > button{
+    width: 50%;
+    border-radius: 8px;
+    height: 4vh;
+}
+.miniMain{
+    width: 50%;
+    height: 90vh;
+    background-color: white;
+    margin: 10px;
+    border-radius: 10px;
+}
+.inputs{
+    border: 2px solid #C4C4C4;
+    border-radius: 9px;
+    width: 70%;
+    margin: 16px;
+    height: 6vh;
+    color: #C4C4C4;
+    padding-left: 10px;
+}
+.search{
+    font-size: 30px;
+    font-weight: 500;
+}
+.text{
+    font-size: 30px;
+    font-weight: 500;
+    margin: 10px;
+}
+.submit{
+    margin-left: 10px;
+
+}

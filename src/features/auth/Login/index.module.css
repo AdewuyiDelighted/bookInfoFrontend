@@ -27,8 +27,8 @@ body{
 .form{
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    padding-left: 50px;
+    margin: 6px;
+
 }
 .form >label {
     display: flex;
@@ -38,6 +38,7 @@ body{
     display: flex;
     height: 8vh;
     width: 90%;
+    margin: 6px;
     border-radius: 5px;
 }
 .checkBox{

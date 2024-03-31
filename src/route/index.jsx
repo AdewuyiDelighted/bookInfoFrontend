@@ -1,5 +1,6 @@
 import Register from "../features/auth/Register"
 import Login from "../features/auth/Login";
+import Menu from "../features/Menu";
 
 export const Routes =[
 
@@ -10,5 +11,9 @@ export const Routes =[
     {
         path:"/log-in",
         element:<Login/>
+    },
+    {
+        path:"/menu",
+        element:<Menu/>
     }
 ]
